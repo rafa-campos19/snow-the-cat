@@ -1,17 +1,17 @@
 body, html {
     height: 100%;
     margin: 0;
+    padding: 0;
 }
 
 body {
     background-color: #8CC0DE;
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
 }
 
 header {
-    justify-content: center;
-    align-items: center;
     text-align: center;
 }
 
@@ -22,6 +22,9 @@ header h1 {
 
 main {
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #imagens-snow {
@@ -57,4 +60,5 @@ footer {
     text-align: center;
     padding: 10px 0;
     width: 100%;
+    margin-top: auto;
 }
